@@ -1,0 +1,190 @@
+*{
+    margin: 10;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header nav img{
+    width: 230px;
+}
+header{
+  box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%); 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color:white;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+   
+}
+header nav ul{
+    display: flex;
+    
+    list-style: none;
+}
+header nav ul li{
+    margin-left: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    color: grey;
+}
+header nav ul li:hover {
+    color: aqua;
+}
+.textgreen{
+    color: aqua;
+}
+.fa9ra{display:grid;
+    grid-template-columns: auto auto;
+    margin-left: 100px;
+    color: grey;}
+
+   
+      header nav about us{
+        color: aqua ;
+      }
+        
+      
+
+      .loun{
+        color: aqua;
+      }
+      .bar{
+        position: relative;
+      }
+        .bar-menu{
+          flex-direction: column;
+          position: absolute;
+          background-color: #f6f8f8;
+          width: 300px;
+          display: none;
+        }
+        .bar-menu li {
+          padding: 5px 12px;
+
+        }
+        .bar:hover > .bar-menu {
+          display: flex;
+        }
+
+      main{
+        width: 80%;
+
+
+margin: 0 auto;
+
+
+      }
+      .cartes{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 70px;
+        
+
+      }
+      .cartes .cartewa7ed{
+        background-color: #00ccb1;
+        width: 180px;
+        padding: 2em 2em ;
+        border-radius: 8px;
+        
+      }
+      .cartes select{
+
+    
+        background-color: transparent;
+        border: none;
+        outline: none;
+        margin-top: 60px;}
+      
+      .cartes .cartethnin{
+        background-color: #072bca;
+        width: 180px;
+        padding: 2em 2em ;
+        border-radius: 8px;
+        
+      }
+     
+      .cartes .cartethaltha{
+        background-color: #0b0c0c;
+        width: 180px;
+        padding: 2em 2em ;
+        border-radius: 8px;
+       
+        
+      }
+   .charikat{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+   }
+   .charikat p{
+    font-size: 1.4rem;
+    width: 25%;
+    color: aqua;
+   }
+   .logos{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logos svg{
+    width: 120px;
+    margin-left: 20px;
+    fill: gray;
+  }
+.logos svg :hover{
+  
+  fill:aqua;
+}
+.big-section{
+  width: 100%;
+  height: 600px;
+  background-color: #e5faf8;
+  background-image: url("https://www.docplanner.com/img/logo.png");
+  background-size: 300px;
+  background-position-y: 200px;
+  background-position-x:100px ;
+ background-repeat: no-repeat;
+}
+.blassa{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.big{
+  width: 40%;
+}
+.big h1{
+  color: aqua;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 350px;
+  height: 200px;
+  padding: 0px;
+
+}
+
+.card{
+  width: 120px;
+  height: 110px;
+  background-color: white;
+}
+    
+
+   .bath{
+    margin-top: 40%;
+   }
+   
